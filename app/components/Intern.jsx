@@ -2,10 +2,10 @@ import React from 'react'
 
 const Intern = () => {
   return (
-    <div className='p-5 lg:p-10 bg-white'>
+    <div className='p-5 lg:p-10 bg-white text-black'>
             <div className='text-center p-2 pb-5 lg:p-10'>
             <div className=' flex justify-center pb-4'>
-            <p className='border px-2 w-fit rounded-2xl text-xs '> Kick start your Carrer </p>
+            <p className='border px-2 w-fit rounded-2xl text-xs border-black'> Kick start your Carrer </p>
             </div>
                 <h1 className=' text-3xl lg:text-5xl font-bold '>Featured Internships </h1>
                 <p className='p-2 text-gray-500 text-sm lg:text-md'>Gain Real-World Experience & Build Your Career!</p>

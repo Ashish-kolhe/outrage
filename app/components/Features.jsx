@@ -2,10 +2,10 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='p-5 lg:p-10 bg-white'>
+    <div className='p-5 lg:p-10 bg-white text-black'>
         <div className='text-center p-2 pb-16 lg:p-10'>
             <div className=' flex justify-center pb-4'>
-            <p className='border px-2 w-fit rounded-2xl text-xs '> Features </p>
+            <p className='border px-2 w-fit rounded-2xl text-xs border-black'> Features </p>
             </div>
 <h1 className=' text-3xl lg:text-5xl font-bold '>Everything you need to succeed</h1>
 <p className='p-2 text-gray-500 text-sm lg:text-md'>Our Platfrom has all the courses to prepare you for real world, with interships suitable for your skills.</p>

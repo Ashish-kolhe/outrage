@@ -50,7 +50,7 @@ const BrowsePage = () => {
           <input
             type="text"
             placeholder={`Search ${category}...`}
-            className="input input-bordered w-full mb-5 rounded-2xl"
+            className="input input-bordered w-full mb-5 rounded-2xl bg-white text-black"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />

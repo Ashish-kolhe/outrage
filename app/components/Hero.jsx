@@ -48,8 +48,8 @@ const Hero = () => {
     <div className='  pb-4'>
             <p className='border px-3 p-1 w-fit rounded-2xl text-xs font-bold text-white bg-black '> Get Started </p>
             </div>
-      <h1 className="text-3xl lg:text-6xl  leading-tight font-bold">Internships & Courses That Ignite Your Future!</h1>
-      <p className="py-6">
+      <h1 className="text-3xl lg:text-6xl  leading-tight font-bold text-black">Internships & Courses That Ignite Your Future!</h1>
+      <p className="py-6 text-black">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>

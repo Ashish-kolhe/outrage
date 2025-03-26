@@ -120,7 +120,7 @@ const DashboardPage = () => {
             </div>
           </button>
           {menuOpen && (
-            <div className="absolute right-0 mt-2 w-48 bg-white  rounded-lg  z-50">
+            <div className="absolute right-0 mt-2 w-48 bg-white  rounded-lg  z-50 text-black">
               <ul className="py-2">
                 {["MyCourses", "MyInternships", "Completed", "PendingCertificates"].map((item) => (
                   <li key={item}>
@@ -177,7 +177,7 @@ const DashboardPage = () => {
 
         {/* Main Content */}
         <div className="flex-1 flex flex-col">
-      <div className="flex-1 p-6">{renderPage()}</div>
+      <div className="flex-1 p-6 bg-white">{renderPage()}</div>
       <Footer /> {/* Footer always at the bottom */}
     </div>
       </div>

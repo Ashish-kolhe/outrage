@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     
-    <div className="navbar bg-white  z-50 shadow-sm fixed">
+    <div className="navbar bg-white text-black z-50 shadow-sm fixed">
   <div className="navbar-start ">
     <div className="dropdown ">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <a href='/login' className="btn btn-outline rounded-md">Login</a>
+  <a href='/login' className="btn btn-outline rounded-md text-black">Login</a>
     <a href='/signup' className="btn bg-black text-white rounded-md ml-3">Sign up</a>
   </div>
 </div>
