@@ -7,8 +7,10 @@ const page = () => {
   return (
     <div>
       <Nav/>
+      
       <BrowseCourse/>
       <Footer/>
+    
     </div>
   )
 }
